@@ -19,5 +19,5 @@ class InsGradingSerializer(serializers.ModelSerializer):
 class InsSummarySerializer(serializers.ModelSerializer):
     class Meta:
         model = InsSummary
-        fields = ('doc_no', 'emp_no', 'emp_name', 'ins_date', 'total', 'score', 'ins_grade',
+        fields = ('doc_no', 'emp_no', 'emp_name', 'ins_date', 'run_date', 'total', 'score', 'ins_grade',
                   'passed', 'insp_comment', 'input_by', 'input_date', 'edit_by', 'edit_date')

@@ -6,9 +6,9 @@ from rest_framework import routers
 router = routers.DefaultRouter()
 
 
-router.register('/inspections', InspectionViewSet)
-router.register('/insgrading', InsGradingViewSet)
-router.register('/summary', InsSummaryViewSet)
+router.register('inspections', InspectionViewSet)
+router.register('insgrading', InsGradingViewSet)
+router.register('summary', InsSummaryViewSet)
 
 
 urlpatterns = [
